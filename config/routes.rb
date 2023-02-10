@@ -11,7 +11,12 @@ Rails.application.routes.draw do
   post'/new', to:'products#create'
   delete'/remove', to:'products#destroy'
   
-
+  #category routes
+  get'/categories',to:'categories#index'
+  get'categories/:id',to:'categories#show'
+  post'/add-category',to:'categories#create'
+  put'update-category', to:'categories#update'
+  delete'/remove-category',to:'categories#destroy'
   # Defines the root path route ("/")
   # root "articles#index"
 end
