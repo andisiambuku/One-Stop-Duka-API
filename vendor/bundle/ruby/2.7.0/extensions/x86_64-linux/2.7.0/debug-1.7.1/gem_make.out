@@ -1,0 +1,16 @@
+current directory: /home/elvis/One-Stop-Duka-API/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+/home/elvis/.rbenv/versions/2.7.4/bin/ruby -I /home/elvis/.rbenv/versions/2.7.4/lib/ruby/2.7.0 -r ./siteconf20230212-10463-1qwz16y.rb extconf.rb
+creating Makefile
+
+current directory: /home/elvis/One-Stop-Duka-API/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR=" clean
+
+current directory: /home/elvis/One-Stop-Duka-API/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/elvis/One-Stop-Duka-API/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR=" install
+/bin/install -c -m 0755 debug.so ./.gem.20230212-10463-1ad0qd2/debug
