@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :users
+  resources :orders 
   resources :users, only: [:create]
   resources :carts, only: [:index, :create, :update]
 
