@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   resources :users, only: [:create]
+  resources :carts, only: [:index, :create, :update]
+
   post '/login', to: 'auth#create'
   get '/profile', to: 'users#profile'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
@@ -17,6 +19,8 @@ Rails.application.routes.draw do
   post'/add-category',to:'categories#create'
   put'update-category', to:'categories#update'
   delete'/remove-category',to:'categories#destroy'
+
+ 
   # Defines the root path route ("/")
   # root "articles#index"
 end
